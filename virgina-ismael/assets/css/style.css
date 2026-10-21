@@ -1,0 +1,116 @@
+/* |||||||||||||||||||||||||||||||||||||||||||||
+VARIABLES
+||||||||||||||||||||||||||||||||||||||||||||| */
+:root {
+/*---------------
+--- COLORES
+-----------------*/
+  --w50-white: #FFFAF0;
+  --w50-beige: #F0E1CB;
+  --w50-brown: #DAC29C;
+  --w50-dbrown: #6D5734;
+  --w50-abrown: rgba(109, 87, 52, 0.25);
+  --w50-gold: #F1B44B;
+  --w50-black: #3C4043;
+/*---------------
+--- FONTS
+-----------------*/
+--w50-font1: "Mea Culpa", cursive;
+--w50-font2: "Petit Formal Script", cursive;
+/*---------------
+--- FONT-SIZES
+-----------------*/
+--W50-H1: 3.9rem;
+--W50-H2: 2.8125rem;
+--W50-H3: 2.3125rem;
+--W50-H4: 1.75rem;
+--W50-H5: 1.625rem;
+--W50-H6: 1.3125rem;
+--W50-reg: 1rem;
+--W50-small: 0.78125rem;
+/*---------------
+--- LINE-HEIGHTS
+-----------------*/
+--W50-lh1: 150%;
+--W50-lh2: 120%;
+/*---------------
+--- FONDOS
+-----------------*/
+--w50-bgh: url("../img/Anillos-head.png") top center;
+--w50-bg: url("../img/white-waves.png") center center;
+--w50-bgtop: url("../img/HeadTop.png") top center;
+--w50-bgbody: url("../img/Head-body.png") top center;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||
+SECCIONES
+||||||||||||||||||||||||||||||||||||||||||||| */
+body{
+    font-family: var(--w50-font2);
+    color: var(--w50-black);
+    background: var(--w50-bg);
+    background-repeat: repeat;
+}
+header{
+    background: var(--w50-bgh);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.hero{
+    background: var(--w50-bgtop);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100px;
+    padding: 8rem 0 1rem;
+    color: var(--w50-white);
+}
+.topper{
+    background: var(--w50-bgbody);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100px;
+    padding: 8rem 0 0;
+}
+section.feathers{
+    background: var(--w50-bg);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||
+FUENTES APLICADAS
+||||||||||||||||||||||||||||||||||||||||||||| */
+h1{ font-family: var(--w50-font1); font-size: var(--W50-H1); line-height: 150%; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+h2{ font-family: var(--w50-font1); font-size: var(--W50-H2); line-height: var(--W50-lh1);}
+h3{ font-family: var(--w50-font1); font-size: var(--W50-H3); line-height: var(--W50-lh1);}
+h4{ font-family: var(--w50-font2); font-size: var(--W50-H4); line-height: var(--W50-lh1);}
+h5{ font-family: var(--w50-font2); font-size: var(--W50-H5); line-height: var(--W50-lh2);}
+h6{ font-family: var(--w50-font2); font-size: var(--W50-H6); line-height: var(--W50-lh2);}
+p{ font-family: var(--w50-font2); font-size: var(--W50-reg); line-height: var(--W50-lh2); justify-content: justify;}
+p.small{ font-family: var(--w50-font2); font-size: var(--W50-small); line-height: var(--W50-lh2);}
+.f-color1{ color: var(--w50-white);}
+.f-color2{ color: var(--w50-dbrown);}
+/* |||||||||||||||||||||||||||||||||||||||||||||
+DETALLES EXTRAS
+||||||||||||||||||||||||||||||||||||||||||||| */
+.btn-w50{
+    padding:1rem 2rem;
+    background-color: var(--w50-gold);
+    color: var(--w50-dbrown);
+    border-radius: 0;
+    border: 1px solid var(--w50-gold);
+    font-family: var(--w50-font2);
+    font-size: var(--W50-reg);
+    line-height: var(--W50-lh2);
+}
+.btn-w50-stroke{
+    padding:1rem 2rem;
+    background-color: transparent;
+    color: var(--w50-gold);
+    border-radius: 0;
+    border: 1px solid var(--w50-gold);
+    font-family: var(--w50-font2);
+    font-size: var(--W50-reg);
+    line-height: var(--W50-lh2);
+}
+ul{list-style-type: none; padding: 0; margin: 0;}
+ul li{padding: 0.5rem 0;}

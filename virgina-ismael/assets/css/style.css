@@ -44,6 +44,11 @@ VARIABLES
 /* |||||||||||||||||||||||||||||||||||||||||||||
 SECCIONES
 ||||||||||||||||||||||||||||||||||||||||||||| */
+html{
+    max-width: 420px!important;
+    background: var(--w50-white);
+    margin: 0 auto;
+}
 body{
     font-family: var(--w50-font2);
     color: var(--w50-black);
@@ -102,6 +107,10 @@ DETALLES EXTRAS
     font-size: var(--W50-reg);
     line-height: var(--W50-lh2);
 }
+.btn-w50:hover{
+    background-color: var(--w50-dbrown);
+    color: var(--w50-gold);
+}
 .btn-w50-stroke{
     padding:1rem 2rem;
     background-color: transparent;
@@ -111,6 +120,10 @@ DETALLES EXTRAS
     font-family: var(--w50-font2);
     font-size: var(--W50-reg);
     line-height: var(--W50-lh2);
+}
+.btn-w50-stroke:hover{
+    background-color: var(--w50-gold);
+    color: var(--w50-dbrown);
 }
 ul{list-style-type: none; padding: 0; margin: 0;}
 ul li{padding: 0.5rem 0;}

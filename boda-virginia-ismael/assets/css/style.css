@@ -174,3 +174,11 @@ RELOJ CONTADOR
   margin-top: 0.3rem;
   color: var(--w50-dbrown);
 }
+
+@media (max-width: 420px) {
+  html{
+    width: 100vw!important;
+    background: var(--w50-white);
+    margin: 0 auto;
+}
+}

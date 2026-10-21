@@ -50,6 +50,7 @@ SECCIONES
     margin: 0 auto;
 } */
 body{
+    overflow-x: hidden;
     font-family: var(--w50-font2);
     color: var(--w50-black);
     background: var(--w50-bg);

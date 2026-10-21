@@ -44,11 +44,11 @@ VARIABLES
 /* |||||||||||||||||||||||||||||||||||||||||||||
 SECCIONES
 ||||||||||||||||||||||||||||||||||||||||||||| */
-html{
+/* html{
     max-width: 420px!important;
     background: var(--w50-white);
     margin: 0 auto;
-}
+} */
 body{
     font-family: var(--w50-font2);
     color: var(--w50-black);
@@ -174,11 +174,11 @@ RELOJ CONTADOR
   margin-top: 0.3rem;
   color: var(--w50-dbrown);
 }
-
+/* 
 @media (max-width: 420px) {
   html{
     width: 100vw!important;
     background: var(--w50-white);
     margin: 0 auto;
 }
-}
+} */

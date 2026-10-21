@@ -127,3 +127,50 @@ DETALLES EXTRAS
 }
 ul{list-style-type: none; padding: 0; margin: 0;}
 ul li{padding: 0.5rem 0;}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||
+RELOJ CONTADOR
+||||||||||||||||||||||||||||||||||||||||||||| */
+
+
+.contador-contenedor {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+}
+
+.contador-titulo {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.contador-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.contador-bloque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 60px;
+}
+
+.contador-numero {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--w50-gold); /* Ajusta este código de color al dorado/tema de tu diseño */
+  line-height: 1;
+}
+
+.contador-etiqueta {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0.3rem;
+  color: var(--w50-dbrown);
+}

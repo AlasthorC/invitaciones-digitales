@@ -39,7 +39,7 @@
                         <img src="assets/img/flores-01.svg" alt="Virginia e Ismael" class="img-fluid rounded mx-auto d-block py-2" data-aos="fade-right" data-aos-duration="1800">
                     </div>
                     <div class="col-8">
-                        <p class="text-center f-color2">Querida familiar y amigos:<br>Con el corazón lleno de gratitud y alegría, queremos invitarlos a compartir con nosotros la celebración de nuestros 50 años de matrimonio.<br>Medio siglo de amor, aprendizajes, momentos inolvidables y una familia que es nuestro mayor tesoro. Nos dará una enorme felicidad reunirnos con ustedes para agradecer la dicha de haber recorrido juntos este camino.<br>Esperamos contar con su cariño y compañía en este día tan especial.</p>
+                        <p class="text-center f-color2">Querida familiar y amigos:<br><br>Con el corazón lleno de gratitud y alegría, queremos invitarlos a compartir con nosotros la celebración de nuestros 50 años de matrimonio.<br><br>Medio siglo de amor, aprendizajes, momentos inolvidables y una familia que es nuestro mayor tesoro. Nos dará una enorme felicidad reunirnos con ustedes para agradecer la dicha de haber recorrido juntos este camino.<br><br>Esperamos contar con su cariño y compañía en este día tan especial.</p>
                     </div>
                     <div class="col-2 d-flex align-items-center">
                         <img src="assets/img/flores-01.svg" alt="Virginia e Ismael" class="img-fluid rounded mx-auto d-block py-2" data-aos="fade-left" data-aos-duration="1800">
@@ -60,12 +60,35 @@
                         <h3 class="text-center f-color2">Ceremonia y Celebración</h3>
                     </div>
                 </div>
-                <div class="row g-0 py-4">
+                <div class="row g-0">
                     <div class="col">
                         <p class="f-color2">Domingo 6 de Diciembre <br>13:30 hrs <br>Jardín El Piamonte<br></p>
                         <p class="f-color2 small">Jorge Enciso 1115, Mexicaltzingo, Iztapalapa, 09099 Ciudad de México, CDMX, Mexico</p>
                         <button type="button" class="btn-w50 d-block mx-auto" onclick="window.open('https://maps.app.goo.gl/z6zDPJs9Nenkq8wr7', '_blank')">¿Cómo llego?</button>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="contador-contenedor">
+                        <p class="contador-titulo">Faltan para el gran día:</p>
+                        <div class="contador-grid">
+                            <div class="contador-bloque">
+                            <span id="dias" class="contador-numero">00</span>
+                            <span class="contador-etiqueta">Días</span>
+                            </div>
+                            <div class="contador-bloque">
+                            <span id="horas" class="contador-numero">00</span>
+                            <span class="contador-etiqueta">Horas</span>
+                            </div>
+                            <div class="contador-bloque">
+                            <span id="minutos" class="contador-numero">00</span>
+                            <span class="contador-etiqueta">Minutos</span>
+                            </div>
+                            <div class="contador-bloque">
+                            <span id="segundos" class="contador-numero">00</span>
+                            <span class="contador-etiqueta">Segundos</span>
+                            </div>
+                        </div>
+                        </div>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -83,7 +106,7 @@
                 </div>
                 <div class="row g-0 py-4">
                     <div class="col">
-                        <p class="f-color2">Formal, nos encantará compartir este día con ustedes luciendo sus mejores galas. Sugerimos que los tonos beige, champagne o dorado para los homenajeados.</p>
+                        <p class="f-color2">Formal, nos encantará compartir este día con ustedes luciendo sus mejores galas. Sugerimos que los tonos beige, champaña o dorado para los homenajeados.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -160,11 +183,9 @@
                     </div>
                     <div class="col-9">
                         <p class="f-color2">¿Puedo asistir con acompañantes?</p>
-                        <p class="f-color2 small">La invitación es personal y está destinada a los familiares contemplados en la celebración. Si tienes alguna duda, por favor consúltanos.</p>
+                        <p class="f-color2 small">La invitación esta destinada a los familiares y amigos contemplados en la celebración. Si tienes alguna duda, por favor consúltanos.</p>
                         <p class="f-color2">¿Hay estacionamiento?</p>
-                        <p class="f-color2 small">Sí, contamos con estacionamiento en el recinto. Les recomendamos llegar con unos minutos de anticipación.</p>
-                        <p class="f-color2">¿Qué sucede si tengo alguna necesidad alimentaria?</p>
-                        <p class="f-color2 small">Por favor, comunícala al confirmar tu asistencia para que podamos considerarla.</p>
+                        <p class="f-color2 small">Sí, contamos con ballet parking. Les recomendamos llegar con unos minutos de anticipación.</p>
                         <p class="f-color2">¿Qué regalo pueden llevar?</p>
                         <p class="f-color2 small">Su presencia y cariño son nuestro mejor regalo. No es necesario traer obsequios.</p>
                     </div>
@@ -194,6 +215,7 @@
             </div>
         </section>
     </main>
+    <script src="assets/js/functions.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({ once: true }); // 'once: true' evita que vuelva a parpadear si suben y bajan

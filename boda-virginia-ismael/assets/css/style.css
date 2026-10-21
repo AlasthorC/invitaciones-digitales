@@ -175,11 +175,13 @@ RELOJ CONTADOR
   margin-top: 0.3rem;
   color: var(--w50-dbrown);
 }
-/* 
-@media (max-width: 420px) {
-  html{
-    width: 100vw!important;
-    background: var(--w50-white);
-    margin: 0 auto;
+
+
+.app-viewport {
+  width: 100%;                  /* Ocupa el 100% en celulares */
+  max-width: 480px;             /* Ancho máximo en escritorio (simula un celular) */
+  margin: 0 auto;               /* Centra el contenido horizontalmente */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1); /* Efecto opcional de tarjeta flotante */
+  background-color: #ffffff;    /* Asegura fondo blanco dentro del contenedor */
+  min-height: 100vh;
 }
-} */

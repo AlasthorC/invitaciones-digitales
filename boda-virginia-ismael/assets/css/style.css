@@ -75,7 +75,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 100px;
-    padding: 8rem 0 0;
+    padding: 8rem 0 1rem 0;
 }
 section.feathers{
     background: var(--w50-bg);
